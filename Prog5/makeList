@@ -1,0 +1,16 @@
+all: prog5
+
+prog5: prog5.o Node.o ListFile.o
+	gcc -Wall -g -o prog5 prog5.o Node.o ListFile.o
+
+ListFile.o: ListFile.c ListFile.h
+	gcc -Wall -g -c ListFile.c
+
+Node.o: Node.h Node.c
+	gcc -Wall -g -c Node.c
+
+prog5.o: prog5.c Node.o ListFile.o
+	gcc -Wall -g -c prog5.c
+
+clean:
+	rm -f Node.o prog5.o prog5 ListFile.o

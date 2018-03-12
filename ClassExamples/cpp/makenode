@@ -1,0 +1,18 @@
+all: mainNode
+
+mainNode: mainNode.o Node.o List.o
+	g++ -Wall -g -o mainNode mainNode.o Node.o List.o
+
+List.o: List.cpp List.h
+	g++ -Wall -g -c List.cpp
+
+Node.o: Node.h Node.cpp
+	g++ -Wall -g -c Node.cpp
+
+mainNode.o: mainNode.cpp Node.h
+	g++ -Wall -g -c mainNode.cpp
+
+.PHONY:
+clean:
+	rm -f Node.o mainNode.o mainNode List.o
+

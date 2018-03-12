@@ -1,0 +1,10 @@
+all: useHash
+
+useHash: useHash.o Hash.o Hasher.o
+	g++ -Wall -g -o useHash useHash.o Hash.o Hasher.o -lssl -lcrypto
+
+Hash.o: Hash.cpp Hash.o
+	g++ -Wall -g -c Hash.cpp
+
+useHash.o: useHash.cpp Hash.o
+	g++ -Wall -g -c useHash.cpp

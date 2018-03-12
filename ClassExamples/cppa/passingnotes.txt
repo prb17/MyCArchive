@@ -1,0 +1,62 @@
+		[ old $rbp ]
+		[ old $rbp ]
+main::$rbp --------------
+			x: 1
+
+
+
+			argc
+			????
+			argv
+			argv
+	-------------------- main::$rsp 
+			retaddr:
+			0x4006bc
+			main::$rbp
+			main::$rbp
+pBV::$rbp -------------- 
+			local x: 5
+
+
+Before returned from passByValue
+
+
+		[ old $rbp ]
+		[ old $rbp ]
+main::$rbp --------------
+			x: 1->5
+
+
+
+			argc
+			????
+			argv
+			argv
+	-------------------- main::$rsp 
+			retaddr:
+			0x4006c8
+			main::$rbp
+			main::$rbp
+pBP::$rbp ------------
+			main::$rbp-4
+			main::$rbp-4
+
+
+$rdi = $rax = main::$rbp - 4
+$rax = main::$rbp - 4
+
+Before returned from passByPointer
+
+
+		[ old $rbp ]
+		[ old $rbp ]
+main::$rbp --------------
+			x: 1->5
+
+
+
+			argc
+			????
+			argv
+			argv
+	-------------------- main::$rsp 

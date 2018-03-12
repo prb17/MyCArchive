@@ -1,0 +1,30 @@
+/*
+  Max Brungardt
+  Peter Brady
+  Sydney Becker
+*/
+
+Majors:
+Max: CompE
+Peter: Electrical Engineer
+Sydney: Computer Science and Business
+
+Why chosen
+Sydney: Didnt know what I wanted to do, and coding sounded cool
+Max: Built his own computer freshman year and wanted to pursue anything computes
+Peter:I want to get into the energy field and work with research and development in alternate energy creation.
+
+Post-Grad goals:
+Max: Get a job, move out of parents house
+Sydeny: find a job that combines both parts of my major
+Peter: Work for a power company that is working with Smart Grids and Demand Response 
+
+Internships:
+Max: IT internship that introduced him to databases
+Sydney: Small Investment banking firm and learned about the market and shadowed people
+Peter: I did research with a professor on a cyber-attack dealing with a demand response in the network grid
+
+Courses Looking forward to:
+Max:Finishing up our Senior Design Class
+Sydeny:CSE 241 becuase its cool and seems important
+Peter: Looking forward to my web systems design class

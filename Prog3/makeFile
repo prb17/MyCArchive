@@ -1,0 +1,10 @@
+all: TheList
+
+TheList: TheList.o List.o
+      gcc -Wall -g -o TheList TheList.o List.o
+
+List.o: List.h List.c
+	gcc -Wall -g -c List.c
+
+TheList.o: TheList.c
+	   gcc -Wall -g -c TheList.c
